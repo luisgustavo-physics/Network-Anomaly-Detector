@@ -1,0 +1,84 @@
+# Python byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Datasets and large data files
+data/
+*.zip
+*.tar.gz
+data/*.txt
+data/*.csv
+*.csv
+
+# Model artifacts (Joblib / Pickle)
+models/*.joblib
+models/*.pkl
+*.joblib
+*.pkl
+
+# Evaluation output and plots
+reports/*.png
+reports/*.json
+reports/*.csv
+
+# Environment variables & secrets
+.env
+.env.local
+
+# IDEs & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
